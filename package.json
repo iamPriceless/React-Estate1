@@ -1,8 +1,11 @@
 {
+  "homepage": "https://iamPriceless.github.io/react-estate1",
   "name": "react-estate1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -24,6 +27,7 @@
   },
   "devDependencies": {
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "gh-pages": "^4.0.0"
   }
 }
